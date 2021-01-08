@@ -1,7 +1,7 @@
 const genBlocks = new Seq;
 
 //change to how many routers you want to be made
-var genAmount = 15;
+var genAmount = 2147483647;
 
 
 for(var i = 0; i < genAmount; i++){
