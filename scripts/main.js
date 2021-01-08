@@ -8,7 +8,7 @@ for(var i = 0; i < genAmount; i++){
     var genID = "genRouter-" + i
     var blockName = "Generated Router " + i
     var b = extend(Router, genID, {
-        displayName: blockName,
+        localizedName: blockName,
         description: "This is a generated block with the internal name of " + genID,
         size: 1,
         buildVisibility: BuildVisibility.shown
